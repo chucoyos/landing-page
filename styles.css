@@ -27,7 +27,7 @@ nav ul {
 .hero {
   justify-content: space-evenly;
   align-items: center;
-  padding: 60px;
+  padding: 120px 60px;
 }
 .left-hero {
   display: flex;
@@ -56,7 +56,7 @@ a {
 a {
   text-decoration: none;
 }
-li {
+li {color: #F9FAF8;
   list-style-type: none;
 }
 .logo {
@@ -67,7 +67,7 @@ li {
 button {
   background-color: #3882F6;
 }
-.hero-button {
+button {
   padding: 8px;
   color: #F9FAF8;
   align-self: flex-start;
@@ -127,5 +127,33 @@ button {
   font-size: x-large;
   padding-right: 32px;
 }
-
- 
+.call-to-action {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.action-card {
+  background-color: #3882F6;
+  display: flex;
+  flex-basis: 1000px;
+  gap: 32px;
+  margin: 81px 81px;
+  padding: 48px 136px;
+  border-radius: 8px;
+  color: #F9FAF8;
+}
+.action-title {
+  font-size: x-large;
+  font-weight: bolder;
+}
+.action-button {
+  border: 1px solid #FFF;
+  margin-left: auto;
+  align-self: flex-end;
+}
+footer {
+  display: flex;
+  padding: 32px;
+  color: #F9FAF8;
+  justify-content: center;
+}
